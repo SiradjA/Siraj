@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-white text-gray-900 font-inter">
+    <nav class="fixed w-full z-50 bg-transparent py-6">
+      <div class="container mx-auto px-6 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">unfold<span class="text-yellow-500">.</span></a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="hover:text-yellow-500 transition-colors">Home</a>
+          <a href="#about" class="hover:text-yellow-500 transition-colors">About</a>
+          <a href="#services" class="hover:text-yellow-500 transition-colors">Services</a>
+          <a href="#skills" class="hover:text-yellow-500 transition-colors">Skills</a>
+          <a href="#portfolio" class="hover:text-yellow-500 transition-colors">Portfolio</a>
+          <a href="#contact" class="hover:text-yellow-500 transition-colors">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center bg-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="max-w-4xl" data-aos="fade-up">
+          <p class="text-lg mb-4">HI! I'M A FREELANCER</p>
+          <h1 class="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+            Developer<br>& Designer
+          </h1>
+          <p class="text-xl text-gray-600 mb-12 max-w-2xl">
+            I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.
+          </p>
+          <div class="flex space-x-6">
+            <a href="#portfolio" class="bg-yellow-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-yellow-600 transition-colors">
+              VIEW PORTFOLIO
+            </a>
+            <a href="#contact" class="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-900 hover:text-white transition-colors">
+              HIRE ME
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" alt="About" class="rounded-lg w-full">
+          </div>
+          <div data-aos="fade-left">
+            <h2 class="text-4xl font-bold mb-8">My Story</h2>
+            <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+              I specialize in building complex web applications, leading front-end teams, and delivering digital experiences that users love. My current toolset includes Vue.js, React, Node.js, and other modern frameworks and libraries.
+            </p>
+            <div class="grid grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 class="font-bold mb-2">Name:</h3>
+                <p class="text-gray-600">Your Name</p>
+              </div>
+              <div>
+                <h3 class="font-bold mb-2">Email:</h3>
+                <p class="text-gray-600">your@email.com</p>
+              </div>
+              <div>
+                <h3 class="font-bold mb-2">Phone:</h3>
+                <p class="text-gray-600">+1 234 567 890</p>
+              </div>
+              <div>
+                <h3 class="font-bold mb-2">Location:</h3>
+                <p class="text-gray-600">London, UK</p>
+              </div>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-600 hover:text-yellow-500 transition-colors">
+                <i class="fab fa-twitter text-xl"></i>
+              </a>
+              <a href="https://www.instagram.com/siradj.ed/?hl=fr" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-yellow-500 transition-colors">
+                <i class="fab fa-instagram text-xl"></i>
+              </a>
+              <a href="https://github.com/SiradjA" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-yellow-500 transition-colors">
+                <i class="fab fa-github text-xl"></i>
+              </a>
+              <a href="#" class="text-gray-600 hover:text-yellow-500 transition-colors">
+                <i class="fab fa-linkedin text-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-4xl font-bold mb-4">My Services</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            I offer a wide range of services to help your business grow and succeed in the digital world.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-desktop text-3xl text-yellow-500 mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Web Design</h3>
+            <p class="text-gray-600">Creating beautiful, modern, and responsive websites that leave a lasting impression.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-code text-3xl text-yellow-500 mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Development</h3>
+            <p class="text-gray-600">Building robust and scalable web applications using the latest technologies.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-paint-brush text-3xl text-yellow-500 mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Branding</h3>
+            <p class="text-gray-600">Developing strong brand identities that help businesses stand out.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-4xl font-bold mb-4">My Skills</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Here are some of my technical skills and expertise.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-1 gap-12">
+          <div data-aos="fade-right">
+            <div class="mb-8">
+              <div class="flex justify-between mb-2">
+                <span class="font-semibold">Graphic Design</span>
+                <span>100%</span>
+              </div>
+              <div class="h-2 bg-gray-200 rounded-full">
+                <div class="h-full bg-yellow-500 rounded-full" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="mb-8">
+              <div class="flex justify-between mb-2">
+                <span class="font-semibold">HTML/CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="h-2 bg-gray-200 rounded-full">
+                <div class="h-full bg-yellow-500 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="mb-8">
+              <div class="flex justify-between mb-2">
+                <span class="font-semibold">Video Editing</span>
+                <span>85%</span>
+              </div>
+              <div class="h-2 bg-gray-200 rounded-full">
+                <div class="h-full bg-yellow-500 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-4xl font-bold mb-4">My Portfolio</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Here are some of my recent projects. Click to learn more about each one.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="group relative overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="Project 1" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black bg-opacity-75 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+              <div class="text-center text-white">
+                <h3 class="text-xl font-bold mb-2">Project Name</h3>
+                <p class="text-gray-300">Web Design</p>
+                <a href="#" class="inline-block mt-4 text-yellow-500 hover:text-yellow-400">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more portfolio items with similar structure -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Have a project in mind? Let's talk about it.
+          </p>
+        </div>
+        <div class="max-w-2xl mx-auto">
+          <form class="space-y-6" data-aos="fade-up">
+            <div>
+              <input type="text" placeholder="Your Name" class="w-full bg-gray-100 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            </div>
+            <div>
+              <input type="email" placeholder="Your Email" class="w-full bg-gray-100 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            </div>
+            <div>
+              <textarea rows="6" placeholder="Your Message" class="w-full bg-gray-100 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-yellow-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-yellow-600 transition-colors">
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-8 bg-gray-100">
+      <div class="container mx-auto px-6 text-center text-gray-600">
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
